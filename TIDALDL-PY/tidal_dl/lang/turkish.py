@@ -47,7 +47,7 @@ class LangTurkish(object):
     PRINT_SUCCESS = "[İNDİRİLDİ]"
 
     PRINT_ENTER_CHOICE = "Seçim Gir: "
-    PRINT_LATEST_VERSION = "Güncelleme Mevcut:"
+    PRINT_LATEST_VERSION = "Mevcut Sürüm:"
     #PRINT_USERNAME = "Kullanıcı Adı ya da Mail Adresi:"
     #PRINT_PASSWORD = "Şifre:"
 
@@ -71,14 +71,14 @@ class LangTurkish(object):
     CHANGE_SHOW_PROGRESS = "İndirme Çubuğu Görüntülensin mi?('0'-Hayır,'1'-Evet):"
 
     # {} are required in these strings
-    AUTH_START_LOGIN = "Starting login process..."
-    AUTH_LOGIN_CODE = "Your login code is {}"
-    AUTH_NEXT_STEP = "Go to {} within the next {} to complete setup."
-    AUTH_WAITING = "Waiting for authorization..."
-    AUTH_TIMEOUT = "Operation timed out."
+    AUTH_START_LOGIN = "Giriş işlemleri başlatılıyor..."
+    AUTH_LOGIN_CODE = "Giriş kodun: {}"
+    AUTH_NEXT_STEP = "{} bağlantısına git, giriş yap ve '{}' bu kodu gir."
+    AUTH_WAITING = "Tamamlamanız bekleniliyor..."
+    AUTH_TIMEOUT = "Süreç zaman aşımına uğradı, tekrar deneyin.."
     
-    MSG_VALID_ACCESSTOKEN = "AccessToken good for {}."
-    MSG_INVAILD_ACCESSTOKEN = "Expired AccessToken. Attempting to refresh it."
+    MSG_VALID_ACCESSTOKEN = "AccessToken geçerlilik süresi: {}."
+    MSG_INVAILD_ACCESSTOKEN = "AccessToken süresi bitti. Lütfen yenileyin."
     MSG_PATH_ERR = "İndirme konumu ile alakalı bir sorun var! ('/storage/emulated/0/Download/' şeklinde girebilirsiniz.)"
     MSG_INPUT_ERR = "Giriş Hatalı!"
 
