@@ -23,7 +23,7 @@ class LangTurkish(object):
     SETTING_CHECK_EXIST = "İndirilmiş mi diye kontrol edilsin:"
     SETTING_ARTIST_BEFORE_TITLE = "Artist adı eklensin:"
     SETTING_ALBUMID_BEFORE_FOLDER = "ID eklensin:"
-    SETTING_INCLUDE_EP = "Single'leri ve EP'leri dahil edisin:"
+    SETTING_INCLUDE_EP = "Single'ler ve EP'ler dahil edisin:"
     SETTING_SAVE_COVERS = "Albüm kapağı indirilsin:"
     SETTING_LANGUAGE = "Kullanılan lisan:"
     SETTING_USE_PLAYLIST_FOLDER = "Albümler klasör halinde indirilsin mi ?"
@@ -37,7 +37,7 @@ class LangTurkish(object):
     CHOICE_ENTER = "Enter"
     CHOICE_ENTER_URLID = "'Url/ID' Gir:"
     CHOICE_EXIT = "Çıkış"
-    CHOICE_LOGIN = "Check AccessToken"
+    CHOICE_LOGIN = "AccessToken'i Kontrol Et"
     CHOICE_SETTINGS = "Ayarlar'ı Düzenle"
     #CHOICE_SET_ACCESS_TOKEN = "'AccessToken' Gir"
     CHOICE_DOWNLOAD_BY_URL = "URL ya da ID ile indir"
@@ -47,14 +47,14 @@ class LangTurkish(object):
     PRINT_SUCCESS = "[İNDİRİLDİ]"
 
     PRINT_ENTER_CHOICE = "Seçim Gir: "
-    PRINT_LATEST_VERSION = "Güncelleme Mevcut:"
+    PRINT_LATEST_VERSION = "Mevcut Versiyon:"
     #PRINT_USERNAME = "Kullanıcı Adı ya da Mail Adresi:"
     #PRINT_PASSWORD = "Şifre:"
 
     CHANGE_START_SETTINGS = ">>> Ayarları düzenlemek istediğine emin misin ? ('0'-Geri Dön,'1'-Evet): "
-    CHANGE_DOWNLOAD_PATH = ">>> İndirme Konumu ('0' aynı kalsın): "
-    CHANGE_AUDIO_QUALITY = ">>> Ses Kalitesi ('0'-Normal,'1'-Yüksek,'2'-HiFi,'3'-[M]aster): "
-    CHANGE_VIDEO_QUALITY = ">>> Video Kalitesi ('0'-1080P,'1'-720P,'2'-480P,'3'-360P): "
+    CHANGE_DOWNLOAD_PATH = ">>> İndirme konumu ('0' aynı kalsın): "
+    CHANGE_AUDIO_QUALITY = ">>> Ses kalitesi ('0'-Normal,'1'-Yüksek,'2'-HiFi,'3'-[M]aster): "
+    CHANGE_VIDEO_QUALITY = ">>> Video kalitesi ('0'-1080P,'1'-720P,'2'-480P,'3'-360P): "
     CHANGE_ONLYM4A = ">>> .mp4 uzantılı dosyalar .m4a'ya çevrilsin mi?('0'-Hayır,'1'-Evet): "
     CHANGE_ADD_EXPLICIT_TAG = ">>> 'Explicit' yani 'küfürlü' etiketi eklensin mi?('0'-Hayır,'1'-Evet): "
     CHANGE_ADD_HYPHEN = ">>> Şarkı dosyasının isminde boşluk yerine '-' eklensin mi ?('0'-Hayır,'1'-Evet): "
@@ -65,20 +65,20 @@ class LangTurkish(object):
     CHANGE_INCLUDE_EP = ">>> Artist'in tüm albümlerini indirirken Single'leri ve EP'leri de dahil edilsin mi ?('0'-Hayır,'1'-Evet): "
     CHANGE_ALBUMID_BEFORE_FOLDER = ">>> Albüm klasörünün ismine ID eklensin mi ?('0'-Hayır,'1'-Evet): "
     CHANGE_SAVE_COVERS = ">>> Albüm kapağı indirilsin mi?('0'-Hayır,'1'-Evet): "
-    CHANGE_LANGUAGE = ">>> Lisan Seç "
-    CHANGE_ALBUM_FOLDER_FORMAT = "Albüm Klasör İsmi Formatı('0' aynı kalsın):"
-    CHANGE_TRACK_FILE_FORMAT = "Dosya İsmi Formatı('0' aynı kalsın):"
-    CHANGE_SHOW_PROGRESS = "İndirme Çubuğu Görüntülensin mi?('0'-Hayır,'1'-Evet):"
+    CHANGE_LANGUAGE = ">>> Lisan Seç:"
+    CHANGE_ALBUM_FOLDER_FORMAT = "Albüm klasörünün isim formatı('0' aynı kalsın):"
+    CHANGE_TRACK_FILE_FORMAT = "Şarkı dosyalarının isim formatı('0' aynı kalsın):"
+    CHANGE_SHOW_PROGRESS = "İndirme çubuğu görüntülensin mi?('0'-Hayır,'1'-Evet):"
 
     # {} are required in these strings
-    AUTH_START_LOGIN = "Starting login process..."
-    AUTH_LOGIN_CODE = "Your login code is {}"
-    AUTH_NEXT_STEP = "Go to {} within the next {} to complete setup."
-    AUTH_WAITING = "Waiting for authorization..."
-    AUTH_TIMEOUT = "Operation timed out."
+    AUTH_START_LOGIN = "Giriş işlemi başlatılıyor..."
+    AUTH_LOGIN_CODE = "Giriş Kodunuz: {}"
+    AUTH_NEXT_STEP = "{} bağlantısına gidip giriş yaptıktan sonra üstteki kodu giriniz. Lütfen {} dakika içerisinde tamamlayınız."
+    AUTH_WAITING = "Giriş kodunu girmenizi bekliyoruz..."
+    AUTH_TIMEOUT = "İşlem zaman aşımına uğradı, lütfen size verilen süre içerisinde işlemlerinizi gerçekleştiriniz!"
     
-    MSG_VALID_ACCESSTOKEN = "AccessToken good for {}."
-    MSG_INVAILD_ACCESSTOKEN = "Expired AccessToken. Attempting to refresh it."
+    MSG_VALID_ACCESSTOKEN = "AccessToken'iniz {} boyunca geçerlidir.."
+    MSG_INVAILD_ACCESSTOKEN = "AccessToken süresi bitti. Yenileniyor..."
     MSG_PATH_ERR = "İndirme konumu ile alakalı bir sorun var! ('/storage/emulated/0/Download/' şeklinde girebilirsiniz.)"
     MSG_INPUT_ERR = "Giriş Hatalı!"
 
@@ -88,10 +88,10 @@ class LangTurkish(object):
     MODEL_ARTIST_PROPERTY = "ARTİST-BİLGİLERİ"
     MODEL_PLAYLIST_PROPERTY = "OYNATMA LİSTESİ-BİLGİLERİ"
 
-    MODEL_TITLE = 'Şarkı/Albüm Adı:'
+    MODEL_TITLE = 'Şarkı/Albüm Adı'
     MODEL_TRACK_NUMBER = 'Şarkı Sayısı'
     MODEL_VIDEO_NUMBER = 'Video Sayısı'
-    MODEL_RELEASE_DATE = 'Çıkış Yılı:'
+    MODEL_RELEASE_DATE = 'Çıkış Yılı'
     MODEL_VERSION = 'Versiyon'
     MODEL_EXPLICIT = 'Küfürlü'
     MODEL_ALBUM = 'Albüm'
